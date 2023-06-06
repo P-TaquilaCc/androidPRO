@@ -1,0 +1,39 @@
+  {
+  "project_info": {
+    "project_number": "410566876325",
+    "project_id": "proyectobd-a72ca",
+    "storage_bucket": "proyectobd-a72ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410566876325:android:17a64ba8f1a9c08993c14c",
+        "android_client_info": {
+          "package_name": "com.example.controladministrativo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410566876325-c97ue88ckd4jodbi5kgoubpm3lcj5pi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfQWLzCwZDGa4OgpG1KvU7YQurZrMSm94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410566876325-c97ue88ckd4jodbi5kgoubpm3lcj5pi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

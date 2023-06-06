@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ControlAdministrativo"
+        tools:targetApi="31">
+        <activity
+            android:name=".Presentation.Horario.HorarioActivity"
+            android:exported="false"
+            android:label="@string/title_activity_horario"
+            android:theme="@style/Theme.ControlAdministrativo" />
+        <activity
+            android:name=".Presentation.Estudiante.EstudianteActivity"
+            android:exported="false"
+            android:label="@string/title_activity_estudiante"
+            android:theme="@style/Theme.ControlAdministrativo" />
+        <activity
+            android:name=".Presentation.GradoSeccion.GradoSeccionActivity"
+            android:exported="false"
+            android:label="@string/title_activity_grado_seccion"
+            android:theme="@style/Theme.ControlAdministrativo" />
+        <activity
+            android:name=".Presentation.Docente.DocenteActivity"
+            android:exported="false"
+            android:label="@string/title_activity_docente"
+            android:theme="@style/Theme.ControlAdministrativo" />
+        <activity
+            android:name=".Presentation.Personal.PersonalActivity"
+            android:exported="false"
+            android:label="@string/title_activity_personal"
+            android:theme="@style/Theme.ControlAdministrativo" />
+        <activity
+            android:name=".Presentation.Dasboard.DashboardActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/Theme.ControlAdministrativo" />
+        <activity
+            android:name=".Presentation.Curso.CursoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_curso"
+            android:theme="@style/Theme.ControlAdministrativo" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ControlAdministrativo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ControlAdministrativo</string>
+    <string name="title_activity_curso">CursoActivity</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_personal">PersonalActivity</string>
+    <string name="title_activity_docente">DocenteActivity</string>
+    <string name="title_activity_grado_seccion">GradoSeccionActivity</string>
+    <string name="title_activity_estudiante">EstudianteActivity</string>
+    <string name="title_activity_horario">HorarioActivity</string>
+</resources>
